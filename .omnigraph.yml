@@ -1,1 +1,4 @@
-identity: db_shared_core
+
+overrides_by_service:
+  svc_node:
+    identity: db_shared_core
