@@ -1,5 +1,5 @@
 
-// Node Service Reading from Global Users (ts=1788100468)
+// Node Service Reading from Global Users (ts=1788100689)
 const GlobalUser = require('./models/GlobalUser');
 
 function fetchActiveUsers() {
