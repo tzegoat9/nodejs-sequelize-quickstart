@@ -1,7 +1,7 @@
 
-// Node Service Reading from Global Users (ts=1788100154)
-const db = require('db');
+// Node Service Reading from Global Users (ts=1788100175)
+const GlobalUser = require('./models/GlobalUser');
 
 function fetchActiveUsers() {
-    return db.query("SELECT * FROM global_users WHERE status = 'active'");
+    return GlobalUser.findAll({ where: { status: 'active' } });
 }
